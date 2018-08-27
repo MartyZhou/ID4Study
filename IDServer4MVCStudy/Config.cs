@@ -48,8 +48,6 @@ namespace IDServer4MVCStudy
                     ClientId = "mvc",
                     ClientName = "MVC Client",
                     AllowedGrantTypes = GrantTypes.Implicit,
-                    //RedirectUris = {"https://localhost:5005/home/about"},
-                    //PostLogoutRedirectUris = {"https://localhost:5005/home/about"},
                     RedirectUris = {"https://localhost:5005/signin-oidc"},
                     PostLogoutRedirectUris = {"https://localhost:5005/signout-callback-oidc"},
                     AllowedScopes = {
